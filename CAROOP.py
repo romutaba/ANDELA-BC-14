@@ -13,12 +13,12 @@ class Car(object):
         self.num_of_wheels = num_of_wheels
         #self.wheels = Car.num_of_wheels
     
-        if name is not "":
+        if name is not None:
             self.name = name
         else:
             self.name = "General"
         
-        if model is not "":
+        if model is not None:
             self.model = model
         else:
             self.model = "GM"  
