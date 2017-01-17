@@ -7,7 +7,7 @@ class prime_numbersTestCase(unittest.TestCase):
 
 	def test_is_seven_prime(self):
 
-		self.assertTrue(is_prime(7))
+		self.assertTrue(is_prime(7), msg="7 is a prime number")
 
 	def test_is_three_prime(self):
 
@@ -15,7 +15,7 @@ class prime_numbersTestCase(unittest.TestCase):
 
 	def test_is_one_prime(self):
 
-		self.assertFalse(is_prime(1))
+		self.assertFalse(is_prime(1))	
 
 
 if __name__ =='__main__':
