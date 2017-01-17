@@ -4,13 +4,14 @@ class Car(object):
     # num_of_doors = 4
     # speed = 0
 
-    def __init__(self, name, model, type, num_of_wheels=8, num_of_doors=4):
+    def __init__(self, name, model, type, num_of_wheels=8, num_of_doors=4,speed):
 
         self.name = name
         self.model = model
         self.type = type
         self.num_of_doors = num_of_doors
         self.num_of_wheels = num_of_wheels
+        self.speed = speed
         #self.wheels = Car.num_of_wheels
     
         if name is not None:
