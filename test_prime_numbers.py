@@ -11,11 +11,19 @@ class prime_numbersTestCase(unittest.TestCase):
 
 	def test_is_three_prime(self):
 
-		self.assertTrue(is_prime(3), msg = "3 is a prime number")
+		self.assertTrue(is_prime(3))
 
 	def test_is_one_prime(self):
 
-		self.assertFalse(is_prime(1), msg = "1 is NOT a prime number")	
+		self.assertFalse(is_prime(1))
+
+	def test_is_zero_prime(self):
+
+		self.assertFalse(is_prime(0))	
+
+	def test_is_negative_prime(self):
+
+		self.assertFalse(is_prime(-11))		
 
 
 if __name__ =='__main__':
