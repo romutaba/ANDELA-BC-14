@@ -12,5 +12,3 @@ def fizz_buzz(num):
     else:
         msg = (num, "is No Buzz, Fizz or FizzBuzz")
     return msg    
-print(fizz_buzz(22)) 
- 
