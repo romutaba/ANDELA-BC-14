@@ -11,4 +11,6 @@ def fizz_buzz(num):
     #number not divisible by either 3 or 5*
     else:
         msg = (num, "is No Buzz, Fizz or FizzBuzz")
-    return msg    
+    return msg 
+
+print(fizz_buzz(90))   
